@@ -1,7 +1,6 @@
 .imagen_cabecera{
   width: 100%;
-  background-color: rgb(174, 185, 192);
-}
+  background: rgba(52, 162, 230, 0.269);}
 #cabecera{
 width: 100%;
 height: auto;

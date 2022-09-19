@@ -1,19 +1,24 @@
 .container-logo{
-  background-color: rgba(174, 185, 192, 0.267);
   width: 100%;
 }
-app-logos{
+/*app-logos{
   float: right;
   margin-top: 0px;
-}
+}*/
 .row{
   padding: 0px;
   width: 100%;
   margin: 0%;
 }
 div{
-  background-color: rgba(174, 185, 192, 0.267);
+  background-color: rgba(52, 162, 230, 0.493);
   text-align: center;
+}
+.dropdown{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 5px;
+  margin-bottom: 0px;
 }
 /*etiqueta nombre*/
 #nombre{

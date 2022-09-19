@@ -12,6 +12,10 @@ import { LogosComponent } from './componentes/logos/logos.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { PorfolioService } from './servicios/porfolio.service';
 import { HttpClientModule} from '@angular/common/http';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HardysoftComponent } from './componentes/hardysoft/hardysoft.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+
 
 @NgModule({
   declarations: [
@@ -22,12 +26,15 @@ import { HttpClientModule} from '@angular/common/http';
     ExperienciaLaboralComponent,
     DatosInteresComponent,
     LogosComponent,
-    BannerComponent
+    BannerComponent,
+    HardysoftComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [PorfolioService],
   bootstrap: [AppComponent]

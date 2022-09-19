@@ -1,8 +1,25 @@
 img{
-  width: 30px;
-  height: auto;
-
+  width: 40px;
+  height: 30px;
 }
-div{
-  background-color: rgba(174, 185, 192, 0.493);
+
+.logos{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.logoap{
+  margin-left: 10px;
+}
+.LogoAp{
+  width: 130px;
+  height: 60px;
+}
+.sociales{
+  margin-right: 10px;
+  align-items: center;
+}
+.sociales img{
+  width: 40px;
+  height: 40px;
 }

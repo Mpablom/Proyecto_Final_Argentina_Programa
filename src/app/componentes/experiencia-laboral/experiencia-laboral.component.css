@@ -1,3 +1,8 @@
-div{
-  box-shadow: 5px 5px 5px 5px #0005;
+.contenido{
+  background: rgba(52, 162, 230, 0.269);
+  margin: 0px;
+  width: 100%;
+}
+.contenido p{
+  margin:0px;
 }

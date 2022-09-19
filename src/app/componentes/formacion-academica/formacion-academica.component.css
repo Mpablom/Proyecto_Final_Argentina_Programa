@@ -1,11 +1,32 @@
 #logo-estudios{
   width: 120px;
   height: 60px;
-  margin-left: 50px;
-  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
-div{
-  box-shadow: 5px 5px 5px 5px #0005;
-  margin-bottom: 500px;
-  margin-top: 500px;
+.formaciones{
+  width: 100%;
+  align-content: space-between;
+  justify-content: center;
+}
+#formacion{
+  margin: 0px;
+  text-align: justify;
+  width:25%;
+  padding:10px;
+}
+
+.contenido{
+  background: rgba(52, 162, 230, 0.269);
+  margin: 0px;
+  width: 100%;
+  display:table;
+}
+.contenido p{
+  margin:0px;
+}
+
+.recuadro{
+  margin: 0px;
+  width: 100%;
 }
