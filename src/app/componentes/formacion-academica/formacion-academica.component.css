@@ -17,7 +17,16 @@
 }
 .row{
   background-color:#0aead5;
+  margin-right: 10px;
 }
 .contenido{
   display:table;
+}
+@media only screen and (max-width : 900px) {
+  #formacion{
+    width: 100vw;
+  }
+  .row{
+    margin-right: 0px;
+  }
 }

@@ -12,6 +12,9 @@ div{
   background:#0aead5;
   text-align: center;
 }
+p{
+  margin-right: 10px;
+}
 .dropdown{
   display: flex;
   flex-direction: row-reverse;
@@ -47,7 +50,11 @@ div{
     width: 30%;
     border-radius: 100%;
     box-shadow: 10px 10px 30px black;
-        left:35%;
+    left:35%;
     top: 65px;
   }
+  .dropdown{
+    margin-bottom: 20px;
+  }
+
 }
