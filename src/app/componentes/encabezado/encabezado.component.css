@@ -1,24 +1,28 @@
-.container-logo{
-  width: 100%;
-}
+
 /*app-logos{
   float: right;
   margin-top: 0px;
 }*/
 .row{
   padding: 0px;
-  width: 100%;
-  margin: 0%;
+  margin-bottom: 0px;
+  background-color:#0aead5;
 }
 div{
-  background-color: rgba(52, 162, 230, 0.493);
+  background:#0aead5;
   text-align: center;
 }
 .dropdown{
   display: flex;
   flex-direction: row-reverse;
-  margin-right: 5px;
+  margin-right: 0px;
   margin-bottom: 0px;
+  background:#0aead5;
+}
+#dropdownMenuButton1{
+  margin: auto;
+  box-shadow: 10px 10px 30px black;
+
 }
 /*etiqueta nombre*/
 #nombre{
@@ -32,7 +36,7 @@ div{
     position: absolute;
     width: 15%;
     border-radius: 100%;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 10px 10px 30px black;
     left: 2%;
     top: 230px;
   }
@@ -42,8 +46,8 @@ div{
     position: absolute;
     width: 30%;
     border-radius: 100%;
-    box-shadow: 3px 3px 3px gray;
-    left:35%;
+    box-shadow: 10px 10px 30px black;
+        left:35%;
     top: 65px;
   }
 }

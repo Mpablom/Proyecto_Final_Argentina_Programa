@@ -2,31 +2,22 @@
   width: 120px;
   height: 60px;
   margin-left: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  background-color:#0aead5;
+  box-shadow: 10px 10px 30px black;
+  transition: transform .5s;
 }
-.formaciones{
-  width: 100%;
-  align-content: space-between;
-  justify-content: center;
+#logo-estudios:hover{
+  transform: scale(1.5);
 }
 #formacion{
-  margin: 0px;
   text-align: justify;
   width:25%;
   padding:10px;
 }
-
+.row{
+  background-color:#0aead5;
+}
 .contenido{
-  background: rgba(52, 162, 230, 0.269);
-  margin: 0px;
-  width: 100%;
   display:table;
-}
-.contenido p{
-  margin:0px;
-}
-
-.recuadro{
-  margin: 0px;
-  width: 100%;
 }

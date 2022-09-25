@@ -15,6 +15,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HardysoftComponent } from './componentes/hardysoft/hardysoft.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     LogosComponent,
     BannerComponent,
     HardysoftComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

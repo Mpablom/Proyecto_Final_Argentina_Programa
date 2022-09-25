@@ -1,11 +1,13 @@
-.imagen_cabecera{
-  width: 100%;
-  background: rgba(52, 162, 230, 0.269);}
+.row{
+  background-color:#0aead5;
+  box-shadow: 10px 10px 30px black;
+}
 #cabecera{
 width: 100%;
 height: auto;
 border-bottom-left-radius: 8px;
 border-bottom-right-radius: 8px;
+margin-right: 0px;
 }
 @media screen and(max-width:576px) {
   .imagen_cabecera{

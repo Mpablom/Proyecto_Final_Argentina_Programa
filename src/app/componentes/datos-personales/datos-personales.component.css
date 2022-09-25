@@ -1,8 +1,3 @@
-.contenido{
-  background: rgba(52, 162, 230, 0.269);
-  margin: 0px;
-  width: 100%;
-}
-.contenido p{
-  margin:0px;
+.row{
+  background-color: #0aead5;
 }

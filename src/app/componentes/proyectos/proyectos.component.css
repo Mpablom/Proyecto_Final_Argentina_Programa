@@ -1,8 +1,7 @@
 .row{
   padding: 20px;
-  background: rgba(52, 162, 230, 0.269);
-  margin: 0px;
-  height: 100%;
+  background-color:#0aead5;
+  height: auto;
 }
 .contenedor{
   width: auto;
@@ -10,7 +9,12 @@
 .parte1, .parte2{
   display: inline-block;
   text-align: justify;
+  margin-bottom: 80px;
 }
 .img-proyecto{
   box-shadow: 10px 10px 30px black;
+  transition: transform .5s;
+}
+.img-proyecto:hover{
+  transform: scale(1.5);
 }
