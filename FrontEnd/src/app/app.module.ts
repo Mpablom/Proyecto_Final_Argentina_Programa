@@ -11,12 +11,12 @@ import { DatosInteresComponent } from './componentes/datos-interes/datos-interes
 import { LogosComponent } from './componentes/logos/logos.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { PorfolioService } from './servicios/porfolio.service';
-import { HttpClientModule} from '@angular/common/http';
+
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HardysoftComponent } from './componentes/hardysoft/hardysoft.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
