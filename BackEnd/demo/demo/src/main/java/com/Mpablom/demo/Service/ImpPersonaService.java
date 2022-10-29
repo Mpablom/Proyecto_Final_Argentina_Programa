@@ -1,36 +1,42 @@
 package com.Mpablom.demo.Service;
 
+import com.Mpablom.demo.Entity.Educacion;
 import com.Mpablom.demo.Entity.Persona;
-import com.Mpablom.demo.Interface.IPersonaService;
+import com.Mpablom.demo.Exception.UserNotFoundException;
 import com.Mpablom.demo.Repository.IPersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 @Service
-public class ImpPersonaService implements IPersonaService {
-    @Autowired IPersonaRepository ipersonaRepository;
+@Transactional
+public class ImpPersonaService{
+  private final IPersonaRepository iPersonaRepository;
 
-    @Override
-    public List<Persona> getPersona() {
-        List<Persona> persona = ipersonaRepository.findAll();
-        return persona;
+    @Autowired
+    public ImpPersonaService(IPersonaRepository iPersonaRepository) {
+        this.iPersonaRepository = iPersonaRepository;
     }
 
-    @Override
-    public void savePersona(Persona persona) {
-            ipersonaRepository.save(persona);
+
+    public Persona addPersona(Persona persona){
+        return iPersonaRepository.save(persona);
     }
 
-    @Override
-    public void deletePersona(Long id) {
-            ipersonaRepository.deleteById(id);
+    public List<Persona> buscarPersona(){
+        return iPersonaRepository.findAll();
+    }
+    public Persona editarPersona(Persona persona){
+        return  iPersonaRepository.save(persona);
+    }
+    public void borrarPersona(Long id){
+        iPersonaRepository.deleteById(id);
     }
 
-    @Override
-    public Persona findPersona(Long id) {
-        Persona persona = ipersonaRepository.findById(id).orElse(null);
-        return persona;
+    public Persona buscarUsuarioPorId(Long id){
+        return iPersonaRepository.findById(id).orElseThrow(()->new UserNotFoundException("Usuario no encontrado"));
     }
 }
+
